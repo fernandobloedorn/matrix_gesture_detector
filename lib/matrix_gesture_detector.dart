@@ -75,8 +75,8 @@ class MatrixGestureDetector extends StatefulWidget {
     this.clipChild = true,
     this.focalPointAlignment,
     this.behavior = HitTestBehavior.deferToChild,
-    require this.onScaleStart,
-    require this.onScaleEnd,
+    required this.onScaleStart,
+    required this.onScaleEnd,
   })  : super(key: key);
 
   @override
